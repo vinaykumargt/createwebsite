@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', san-serif;
+}
+
+.maincontainer{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    height: 60px;
+    padding: 0 20px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.navleft{
+    margin-left: 20px;
+    color: white;
+}
+
+.navhome, .navabout, .navcontact, .navservices {
+    margin-right: 15px;
+    color: white;
+}
+
+.section1{
+    display: flex;
+    background-color: black;
+    margin-top: 60.6px;
+    color: white;
+    height: 630px;
+    max-width: 1500px;
+}
+
+.animation{
+    max-width: 800px;
+}
+#header-text{
+    font-weight: 700;
+    font-size: 150px;
+    padding-top: 20px;
+    animation: fade 2s;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.image{
+    margin-top: 230px;
+    margin-left: 60px;
+}
+
+.section2{
+    background-color: black;
+    padding:10px 10px;
+}
+
+#arrow{
+    margin-left: 750px;
+}
+
+.section3{
+    display: flex;
+}
+.aboutimg{
+    margin-top: 110px;
+    margin-left: 80px;
+}
+.abouttext{
+   margin-top: 110px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+#aboutusheader{
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.section4{
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.section5{
+    display: flex;
+    overflow-x: scroll;
+}
+.block{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 2px solid black;
+    border-radius: 0;
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    margin-right: 3.5rem;
+    padding: 1rem;
+    background-color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    transition-duration: 0.3s;
+    
+}
+.block:hover{
+    background-color: black;
+    color: white;
+}
+.footercontainer{
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    height: 620px;
+}
+.contactustext{
+    margin-left: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.form{
+    margin-left: 450px;
+}
+#fullname, #lastname, #email, #reason{
+    padding-bottom: 30px;
+    padding-right: 500px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 15px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+}
+.submitBtn {
+    margin-top: 50px;
+    font-size: 1.4rem;
+    padding: 0.75rem 5rem;
+}
